@@ -1,0 +1,224 @@
+*{
+ 	margin: 0;
+    padding:0;
+}
+
+.test, .overlay, .logo{
+	position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    height: 100%;
+    width: auto;
+}
+
+.location{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*
+.test{
+	position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    height: 100%;
+    width: auto;
+}
+
+.overlay{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    height: 100%;
+    width: auto;
+}*/
+
+body{
+	/*overflow: hidden;*/
+	background-color: #000000;
+}
+
+.bunkers{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: transparent;
+	border: 2px solid yellow;
+	border-radius: 10px;
+    outline: none;
+    color: SpringGreen;
+    padding-top: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bunkers:active {     
+    border-color: red;    
+}
+
+
+#desc_bunker0, #desc_bunker1, #desc_bunker2, #desc_bunker3, #desc_bunker4, #desc_bunker5, #desc_bunker6, #desc_bunker7, #desc_bunker8, #desc_bunker9, #desc_bunker10{
+	visibility: hidden;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    font-size: 20px; 
+    /* Position the tooltip */
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+	background: #c2c2c2;
+	box-shadow: inset 10px 10px 10px #a5a5a5,
+            inset -10px -10px 10px #dfdfdf;
+    color: #000000;
+}
+
+#bunker0{
+	left: 750px;
+	top: 880px;	
+}
+
+#bunker0 #desc_bunker0 {
+    top: -100px;
+    left: -100px;
+}
+/*
+#bunker0:hover .desc_bunker0 {
+    visibility: visible;
+}*/
+
+#bunker1{
+	left: 598px;
+	top: 690px;	
+}
+
+#bunker1 #desc_bunker1 {
+    top: -100px;
+    left: -100px;
+}
+
+
+#bunker2{
+	left: 580px;
+	top: 570px;	
+}
+
+#bunker2 #desc_bunker2 {
+    top: -100px;
+    left: -100px;
+}
+
+
+
+#bunker3{
+	left: 590px;
+	top: 560px;	
+}
+
+#bunker3 #desc_bunker3 {
+    top: -100px;
+    left: -100px;
+}
+
+
+#bunker4{
+	left: 755px;
+	top: 218px;	
+}
+
+#bunker4 #desc_bunker4 {
+    top: -100px;
+    left: -100px;
+}
+
+
+
+#bunker5{
+	left: 913px;
+	top: 257px;	
+}
+
+#bunker5 #desc_bunker5 {
+    top: -100px;
+    left: -100px;
+}
+
+
+
+#bunker6{
+	left: 1228px;
+	top: 300px;	
+}
+
+#bunker6 #desc_bunker6 {
+    top: -100px;
+    left: -100px;
+}
+
+
+
+#bunker7{
+	left: 1166px;
+	top: 435px;	
+}
+
+#bunker7 #desc_bunker7 {
+    top: -100px;
+    left: -100px;
+}
+
+
+
+#bunker8{
+	left: 1157px;
+	top: 442px;	
+}
+
+#bunker8 #desc_bunker8 {
+    top: -100px;
+    left: -100px;
+}
+
+
+
+#bunker9{
+	left: 1297px;
+	top: 810px;	
+}
+
+#bunker9 #desc_bunker9 {
+    top: -100px;
+    left: -100px;
+}
+
+
+
+#bunker10{
+	left: 1023px;
+	top: 822px;	
+}
+
+#bunker10 #desc_bunker10 {
+    top: -100px;
+    left: -100px;
+}
+
+
+.logo{
+	height: 90px;
+	width: auto;
+	margin-top: 10px;
+}
